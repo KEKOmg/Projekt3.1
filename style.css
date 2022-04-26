@@ -1,0 +1,88 @@
+*{
+
+}
+
+
+
+
+ul {
+ 
+  list-style-type:none;
+  padding:0;
+  margin:0;
+  font-size:18px;
+  height:2em;
+  line-height:2em;
+  text-align:center;
+
+}
+
+ul > li {
+  float:left;
+  background-color:#FDD700;
+  width:150px;
+  text-align: center;
+  list-style-type:none;
+  padding:0;
+  margin:0;
+  margin-left: 3%;
+  margin-right:3%;
+
+}
+
+ul a {
+  display:block;
+  color:#000;
+  text-decoration:none;
+  padding:0 5px;
+}
+
+
+ul > li > a:hover {
+  color:#09C;
+}
+
+ul > li:hover {
+  background-color:#EEE;
+}
+
+
+
+.naglowek {
+  list-style-type:none;
+  padding:0;
+  margin:3%;
+  font-size:25px;
+  text-align:center;
+  color: #467;
+}
+
+.treść{
+    
+  display: flex;
+  padding: 20px;
+  background-color: #784;
+}
+
+.lewa {
+   flex: 1;
+    background-color: #732;
+
+}
+
+.prawa {
+  flex: 1;
+  margin-left: 20px;
+   background-color: #843;
+   
+}
+
+h2{
+    color: #467;
+    font-size: 20px;
+}
+
+.prawa p { 
+   font-size: 25px;
+   color:#FDD700
+}
